@@ -1,0 +1,4 @@
+#alias display='xrandr --output Virtual1 --mode 2560x1600 --pos 0x0 --rotate normal && killall conky && conky'
+alias display='xrandr --output Virtual1 --mode 1920x1200 --pos 0x0 --rotate normal && killall conky && conky'
+
+alias syncclock='sudo chronyd -q'
